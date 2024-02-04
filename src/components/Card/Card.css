@@ -1,0 +1,77 @@
+.card {
+    height: 14.6rem;
+    width: 35.6rem;
+    background-color: var(--card-bg);
+    border-radius: 1.5rem;
+
+    display: flex;
+
+    position: absolute;
+    top: 29.5rem;
+    left: 5.8rem;
+}
+
+.right-content {
+    padding: 1.85rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 24;
+}
+
+.username {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14;
+    color: var(--text-grey);
+}
+
+.bio-title {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 14;
+    color: var(--text-grey);
+    margin-bottom: 8px;
+}
+
+.bio {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14;
+    color: var(--text-grey);
+    line-height: 1.5rem;
+}
+
+.tag {
+    height: 1.8rem;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--tag-bg);
+}
+
+.inner-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14;
+
+    background-color: var(--card-bg);
+    border: 1px solid var(--tag-bg);
+    border-radius: 5px;
+    width: 50%;
+    height: calc(100% - 1px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

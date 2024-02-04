@@ -1,0 +1,47 @@
+.logo-footer {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+
+    margin-bottom: 0.625rem;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    height: 20rem;
+    margin-top: 8rem;
+    border-top: 1px solid var(--card-shadow);
+    padding: 0 6rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-footer {
+    width: 2px;
+    height: 5.75rem;
+    margin-right: 1rem;
+}
+
+.link-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.link-container {
+    display: flex;
+}
+
+.link-footer {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+    cursor: pointer;
+}

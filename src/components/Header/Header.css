@@ -1,0 +1,41 @@
+.header {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 24;
+
+    height: 6.8rem;
+    padding-left: 7.7rem;
+    padding-right: 3.375rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.share-btn {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
+    color: var(--btn);
+    width: 8.6rem;
+    height: 2.4rem;
+    border: 2px solid var(--btn);
+    border-radius: 5rem;
+    background-color: var(--white);
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo,
+.icons-wrapper>img {
+    cursor: pointer;
+}
